@@ -76,3 +76,35 @@ body {
    position: absolute;
    z-index: 99;
 }
+/* 🌌 Munyy Galaxy Theme Override */
+body {
+  background: radial-gradient(circle at top, #1a1a40 0%, #0d0d1f 100%);
+  color: #e0e0ff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1.title {
+  font-size: 3rem;
+  text-align: center;
+  background: linear-gradient(to right, #8a2be2, #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input.search-home {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid #5e5eff;
+  color: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 1rem;
+  backdrop-filter: blur(6px);
+}
+
+input.search-home::placeholder {
+  color: #aaa;
+}
+
+.main {
+  padding-top: 10vh;
+}
